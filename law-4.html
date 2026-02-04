@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Laws of AI: Same Laws, Different Roles</title>
+  <style>
+    body {
+            background-color: #98CB96;
+            font-family: Arial, sans-serif;
+            background-image: url("light-grass.png");
+            background-repeat: repeat;
+            margin: 70px 0;
+        }
+      .title {
+           display: block;
+           margin: 0 auto;
+      }
+    .main-nav {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 auto;
+        width: 900px;
+  }
+
+  .main-nav li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 1.2%;
+        width: 22%;
+  }
+  .current {
+     filter: brightness(60%);
+  }
+.laws-container {
+display: flex;
+gap: 30px;
+width: 900px;
+margin: 20px auto;
+}
+
+.laws-sidebar {
+     background-image: url("law-sidebar-302px.png");
+     background-repeat: no-repeat;
+     width: 302px;
+     height: 298px;
+}
+.sidebar-inner {
+padding: 30px;
+}
+.laws-body {
+     background-image: url("law-body-548px.png");
+     background-repeat: no-repeat;
+     width: 548px;
+     height: 604px;
+}
+.laws-body-inner {
+padding: 30px;
+font-size: 18px;
+}
+    .laws-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 auto;
+        width: 900px;
+  }
+
+  .laws-list li {
+        list-style-type: none;
+        margin: 20px 0;
+  }
+
+  .laws-list li a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #982513;
+}
+
+  .laws-list li a:hover {
+        text-decoration: none;
+        color: #591308;
+}
+.active-law {
+    font-weight: bold;
+    text-decoration: underline;
+}
+  </style>
+</head>
+<body>
+    <ul class="main-nav">
+        <li><a class="current" href="law-1.html"><img width="100%" src="laws-button.png"></a></li>
+        <li><a href="gautam.html"><img width="100%" src="gautam-button.png"></a></li>
+        <li><a href="sarah.html"><img width="100%" src="sarah-button.png"></a></li>
+        <li><a href="summer.html"><img width="100%" src="summer-button.png"></a></li>
+    </ul>
+    <div class="laws-container">
+        <div class="laws-sidebar">
+            <div class="sidebar-inner">
+                <img class="sidebar-title" src="sidebar-title.png">
+                <hr>
+                <ul class="laws-list">
+                   <li><a href="law-1.html">First Law: Provide Context</a></li>
+                   <li><a href="law-2.html">Second Law: Be Specific</a></li>
+                   <li><a href="law-3.html">Third Law: Show Examples</a></li>
+                   <li><a class="active-law" href="#">Fourth Law: Iterate Results</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="laws-body">
+            <div class="laws-body-inner">
+                <p><strong>Fourth Law of AI</strong></p>
+                <img width="100%" src="4th-law-title.png">
+                <hr>
+                <p>AI isn’t meant to be one-and-done. The real value comes from reacting, refining, and asking for changes, just like working with a teammate.</p>
+                <br>
+                <p><strong>Weak approach:</strong></p>
+                <p><em>Stopping after the first response from an AI tool.</em></p>
+                <br>
+                <p><strong>Strong approach:</strong></p> 
+                <p><em>“Make this shorter.”</em></p>
+                <p><em>“Rewrite this for a non-technical audience.”</em></p>
+                <p><em>“This is close — make it sound more confident.”</em></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
